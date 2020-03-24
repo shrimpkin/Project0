@@ -1,6 +1,8 @@
 $darkblue : #05386b;
 $lightgreen : #8EE4AF;
 $white : #EDF5E1;
+$smallFontSize : 15px;
+$largeFontSize : 20px;
 
 body {
     background-color: $lightgreen;
@@ -12,13 +14,14 @@ ul {
 
 li {
     color : $white;
-    font-size : 10px;
+    font-size : $smallFontSize;
     border-color: $darkblue;
     border-width: 2px;
     border-style: solid;
+
 }
 
 h1 {
     color: $white;
-    font-size : 20px;
+    font-size : $largeFontSize;
 }
