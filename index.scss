@@ -4,6 +4,11 @@ $white : #EDF5E1;
 $smallFontSize : 15px;
 $largeFontSize : 20px;
 
+%text {
+  color : $white;
+  font-size : $smallFontSize;
+}
+
 body {
     background-color: $lightgreen;
 }
@@ -17,8 +22,11 @@ ul {
 }
 
 li {
-    color : $white;
-    font-size : $smallFontSize;
+    @extent %text;
+}
+
+header{
+  @extent %text;   
 }
 
 h1 {
