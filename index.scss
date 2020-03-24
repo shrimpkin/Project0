@@ -10,9 +10,11 @@ ul {
 
 }
 
-li, p {
+li {
     color : $white;
     font-size : 10px;
+    border-color: $darkblue;
+    border-width: 20px;
 }
 
 h1 {
