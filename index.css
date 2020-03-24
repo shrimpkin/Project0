@@ -8,7 +8,8 @@ ul {
   padding-left: 15px;
   padding-right: 15px;
   padding-top: 15px;
-  padding-bottom: 15px; }
+  padding-bottom: 15px;
+  list-style-type: lower-greek; }
 
 li {
   color: #EDF5E1;
