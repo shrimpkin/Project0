@@ -1,22 +1,51 @@
-body {
-  background-color: #5CDB95; }
+/*
+Error: Invalid CSS after "...outline-color: ": expected expression (e.g. 1px, bold), was ": $darkblue;"
+        on line 12 of index.scss
 
-ul {
-  border-color: #05386b;
-  border-width: 2px;
-  border-style: solid;
-  padding-left: 15px;
-  padding-right: 15px;
-  padding-top: 15px;
-  padding-bottom: 15px;
-  list-style-type: lower-greek; }
+7: body {
+8:     background-color: $lightgreen;
+9: }
+10: 
+11: ul {
+12:     outline-color: : $darkblue;
+13:     outline-width: 2px;
+14:     outline-style: solid;
+15:     padding-left : 15px;
+16:     padding-right : 15px;
+17:     padding-top : 15px;
 
-li {
-  color: #EDF5E1;
-  font-size: 15px; }
-
-h1 {
-  color: #EDF5E1;
-  font-size: 20px; }
-
-/*# sourceMappingURL=index.css.map */
+Backtrace:
+index.scss:12
+D:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/sass-3.7.4/lib/sass/scss/parser.rb:1308:in `expected'
+D:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/sass-3.7.4/lib/sass/script/lexer.rb:240:in `expected!'
+D:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/sass-3.7.4/lib/sass/script/parser.rb:855:in `assert_expr'
+D:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/sass-3.7.4/lib/sass/script/parser.rb:68:in `parse'
+D:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/sass-3.7.4/lib/sass/scss/parser.rb:1164:in `sass_script'
+D:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/sass-3.7.4/lib/sass/scss/parser.rb:1002:in `value!'
+D:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/sass-3.7.4/lib/sass/scss/parser.rb:807:in `block in try_declaration'
+D:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/sass-3.7.4/lib/sass/scss/parser.rb:1284:in `rethrow'
+D:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/sass-3.7.4/lib/sass/scss/parser.rb:820:in `try_declaration'
+D:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/sass-3.7.4/lib/sass/scss/parser.rb:743:in `declaration_or_ruleset'
+D:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/sass-3.7.4/lib/sass/scss/parser.rb:708:in `block_child'
+D:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/sass-3.7.4/lib/sass/scss/parser.rb:697:in `block_contents'
+D:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/sass-3.7.4/lib/sass/scss/parser.rb:689:in `block'
+D:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/sass-3.7.4/lib/sass/scss/parser.rb:681:in `ruleset'
+D:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/sass-3.7.4/lib/sass/scss/parser.rb:707:in `block_child'
+D:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/sass-3.7.4/lib/sass/scss/parser.rb:700:in `block_contents'
+D:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/sass-3.7.4/lib/sass/scss/parser.rb:137:in `stylesheet'
+D:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/sass-3.7.4/lib/sass/scss/parser.rb:41:in `parse'
+D:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/sass-3.7.4/lib/sass/engine.rb:414:in `_to_tree'
+D:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/sass-3.7.4/lib/sass/engine.rb:389:in `_render_with_sourcemap'
+D:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/sass-3.7.4/lib/sass/engine.rb:307:in `render_with_sourcemap'
+D:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/sass-3.7.4/lib/sass/exec/sass_scss.rb:387:in `run'
+D:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/sass-3.7.4/lib/sass/exec/sass_scss.rb:63:in `process_result'
+D:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/sass-3.7.4/lib/sass/exec/base.rb:50:in `parse'
+D:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/sass-3.7.4/lib/sass/exec/base.rb:18:in `parse!'
+D:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/sass-3.7.4/bin/sass:13:in `<top (required)>'
+D:/Ruby26-x64/bin/sass:23:in `load'
+D:/Ruby26-x64/bin/sass:23:in `<main>'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: Invalid CSS after \"...outline-color: \": expected expression (e.g. 1px, bold), was \": $darkblue;\"\A         on line 12 of index.scss\A \A 7: body {\A 8:     background-color: $lightgreen;\A 9: }\A 10: \A 11: ul {\A 12:     outline-color: : $darkblue;\A 13:     outline-width: 2px;\A 14:     outline-style: solid;\A 15:     padding-left : 15px;\A 16:     padding-right : 15px;\A 17:     padding-top : 15px;"; }
