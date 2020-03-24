@@ -1,12 +1,14 @@
 body {
   background-color: #5CDB95; }
 
-li {
-  color: #EDF5E1;
-  font-size: 15px;
+ul {
   border-color: #05386b;
   border-width: 2px;
   border-style: solid; }
+
+li {
+  color: #EDF5E1;
+  font-size: 15px; }
 
 h1 {
   color: #EDF5E1;
