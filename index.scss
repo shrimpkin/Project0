@@ -20,7 +20,7 @@ ul {
   border-color: #05386b;
   border-width: 2px;
   border-style: solid;
-  @extend paddingSettings;
+  @extend %paddingSettings;
   list-style-type: none;
 }
 
@@ -49,5 +49,5 @@ p {
   border-color: #05386b;
   border-width: 2px;
   border-style: solid;
-  @extend paddingSettings;
+  @extend %paddingSettings;
 }
