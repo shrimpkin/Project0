@@ -1,6 +1,7 @@
 $darkblue : #05386b;
 $lightgreen : #8EE4AF;
 $white : #EDF5E1;
+
 body {
     background-color: $lightgreen;
 }
@@ -9,7 +10,7 @@ ul {
 
 }
 
-li {
+li, p {
     color : $white;
     font-size : 10px;
 }
