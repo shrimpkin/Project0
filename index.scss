@@ -9,14 +9,11 @@ body {
 }
 
 ul {
-    outline-color: $darkblue;
-    outline-width: 2px;
-    outline-style: solid;
-    padding-left : 15px;
-    padding-right : 15px;
-    padding-top : 15px;
-    padding-bottom: 15px;
-    list-style-type: lower-greek;
+  border-color: #05386b;
+  border-width: 2px;
+  border-style: solid;
+  padding: 15px;
+  list-style-type: none;
 }
 
 li {
