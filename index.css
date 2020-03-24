@@ -9,8 +9,10 @@ ul {
   list-style-type: none; }
 
 li {
-  color: #EDF5E1;
-  font-size: 15px; }
+  @extend %text; }
+
+header {
+  @extend %text; }
 
 h1 {
   color: #EDF5E1;

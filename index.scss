@@ -4,9 +4,8 @@ $white : #EDF5E1;
 $smallFontSize : 15px;
 $largeFontSize : 20px;
 
-%text {
+%textSettings {
   color : $white;
-  font-size : $smallFontSize;
 }
 
 body {
@@ -22,14 +21,16 @@ ul {
 }
 
 li {
-    @extent %text;
+    @extend %textSettings;
+    font-size : $smallFontSize;
 }
 
 header{
-  @extent %text;   
+    @extend %textSettings;
+    font-size : $smallFontSize;
 }
 
 h1 {
-    color: $white;
+    @extend %textSettings;
     font-size : $largeFontSize;
 }
