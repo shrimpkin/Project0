@@ -1,4 +1,4 @@
-li, header, h1 {
+li, header, h1, p, #mainBody {
   color: #EDF5E1; }
 
 body {
@@ -19,5 +19,13 @@ header {
 
 h1 {
   font-size: 20px; }
+
+p {
+  font-size: 15px; }
+
+#mainBody {
+  border-color: #05386b;
+  border-width: 2px;
+  border-style: solid; }
 
 /*# sourceMappingURL=index.css.map */
