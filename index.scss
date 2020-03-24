@@ -34,3 +34,15 @@ h1 {
     @extend %textSettings;
     font-size : $largeFontSize;
 }
+
+p {
+    @extend %textSettings;
+    font-size : $smallFontSize;
+}
+
+#mainBody{
+  @extend %textSettings;
+  border-color: #05386b;
+  border-width: 2px;
+  border-style: solid;
+}

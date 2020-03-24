@@ -1,3 +1,6 @@
+li, header, h1 {
+  color: #EDF5E1; }
+
 body {
   background-color: #5CDB95; }
 
@@ -9,13 +12,12 @@ ul {
   list-style-type: none; }
 
 li {
-  @extend %text; }
+  font-size: 15px; }
 
 header {
-  @extend %text; }
+  font-size: 15px; }
 
 h1 {
-  color: #EDF5E1;
   font-size: 20px; }
 
 /*# sourceMappingURL=index.css.map */
