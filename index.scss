@@ -9,16 +9,14 @@ body {
 }
 
 ul {
-
+    border-color: $darkblue;
+    border-width: 2px;
+    border-style: solid;
 }
 
 li {
     color : $white;
     font-size : $smallFontSize;
-    border-color: $darkblue;
-    border-width: 2px;
-    border-style: solid;
-
 }
 
 h1 {
