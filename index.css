@@ -7,6 +7,10 @@ ul {
   border-style: solid; }
 
 li {
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-top: 15px;
+  padding-bottom: 15px;
   color: #EDF5E1;
   font-size: 15px; }
 
