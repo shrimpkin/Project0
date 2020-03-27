@@ -1,30 +1,33 @@
-/*
-Sass::SyntaxError: "ul" failed to @extend "paddingSettings".
-The selector "paddingSettings" was not found.
-Use "@extend paddingSettings !optional" if the extend should be able to fail.
+li, header, h1, p, #mainBody {
+  color: #EDF5E1; }
 
+ul, #mainBody {
+  padding: 15px; }
 
-Backtrace:
-index.scss:23
-D:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/sass-3.7.4/lib/sass/tree/visitors/extend.rb:56:in `block in check_extends_fired!'
-D:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/sass-3.7.4/lib/sass/util/subset_map.rb:105:in `block in each_value'
-D:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/sass-3.7.4/lib/sass/util/subset_map.rb:105:in `each'
-D:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/sass-3.7.4/lib/sass/util/subset_map.rb:105:in `each_value'
-D:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/sass-3.7.4/lib/sass/tree/visitors/extend.rb:51:in `check_extends_fired!'
-D:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/sass-3.7.4/lib/sass/tree/visitors/extend.rb:16:in `visit'
-D:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/sass-3.7.4/lib/sass/tree/root_node.rb:39:in `css_tree'
-D:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/sass-3.7.4/lib/sass/tree/root_node.rb:29:in `render_with_sourcemap'
-D:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/sass-3.7.4/lib/sass/engine.rb:389:in `_render_with_sourcemap'
-D:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/sass-3.7.4/lib/sass/engine.rb:307:in `render_with_sourcemap'
-D:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/sass-3.7.4/lib/sass/exec/sass_scss.rb:387:in `run'
-D:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/sass-3.7.4/lib/sass/exec/sass_scss.rb:63:in `process_result'
-D:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/sass-3.7.4/lib/sass/exec/base.rb:50:in `parse'
-D:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/sass-3.7.4/lib/sass/exec/base.rb:18:in `parse!'
-D:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/sass-3.7.4/bin/sass:13:in `<top (required)>'
-D:/Ruby26-x64/bin/sass:23:in `load'
-D:/Ruby26-x64/bin/sass:23:in `<main>'
-*/
-body:before {
-  white-space: pre;
-  font-family: monospace;
-  content: "Sass::SyntaxError: \"ul\" failed to @extend \"paddingSettings\".\A The selector \"paddingSettings\" was not found.\A Use \"@extend paddingSettings !optional\" if the extend should be able to fail.\A "; }
+body {
+  background-color: #5CDB95; }
+
+ul {
+  border-color: #05386b;
+  border-width: 2px;
+  border-style: solid;
+  list-style-type: none; }
+
+li {
+  font-size: 15px; }
+
+header {
+  font-size: 15px; }
+
+h1 {
+  font-size: 20px; }
+
+p {
+  font-size: 15px; }
+
+#mainBody {
+  border-color: #05386b;
+  border-width: 2px;
+  border-style: solid; }
+
+/*# sourceMappingURL=index.css.map */
